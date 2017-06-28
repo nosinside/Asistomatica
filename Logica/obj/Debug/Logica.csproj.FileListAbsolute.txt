@@ -1,0 +1,7 @@
+c:\users\johan barahona\documents\visual studio 2017\Projects\Asistomatica\Logica\bin\Debug\Logica.dll
+c:\users\johan barahona\documents\visual studio 2017\Projects\Asistomatica\Logica\bin\Debug\Logica.pdb
+c:\users\johan barahona\documents\visual studio 2017\Projects\Asistomatica\Logica\bin\Debug\Controlador.dll
+c:\users\johan barahona\documents\visual studio 2017\Projects\Asistomatica\Logica\bin\Debug\Controlador.pdb
+c:\users\johan barahona\documents\visual studio 2017\Projects\Asistomatica\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+c:\users\johan barahona\documents\visual studio 2017\Projects\Asistomatica\Logica\obj\Debug\Logica.dll
+c:\users\johan barahona\documents\visual studio 2017\Projects\Asistomatica\Logica\obj\Debug\Logica.pdb

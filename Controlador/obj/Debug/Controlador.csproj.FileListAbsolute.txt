@@ -1,0 +1,5 @@
+c:\users\johan barahona\documents\visual studio 2017\Projects\Asistomatica\Controlador\bin\Debug\Controlador.dll
+c:\users\johan barahona\documents\visual studio 2017\Projects\Asistomatica\Controlador\bin\Debug\Controlador.pdb
+c:\users\johan barahona\documents\visual studio 2017\Projects\Asistomatica\Controlador\obj\Debug\Controlador.csprojResolveAssemblyReference.cache
+c:\users\johan barahona\documents\visual studio 2017\Projects\Asistomatica\Controlador\obj\Debug\Controlador.dll
+c:\users\johan barahona\documents\visual studio 2017\Projects\Asistomatica\Controlador\obj\Debug\Controlador.pdb
