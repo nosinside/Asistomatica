@@ -5,3 +5,5 @@ Este repositorio está generado para la evidencia del proyecto, cada commit es u
 
 nosinside = Johan Barahona.
 tyan = Bastián Padilla.
+
+* Generado en Visual Studio 2017.
