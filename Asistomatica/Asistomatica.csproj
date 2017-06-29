@@ -83,6 +83,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmDocente.resx">
+      <DependentUpon>frmDocente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEncargado.resx">
+      <DependentUpon>frmEncargado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
