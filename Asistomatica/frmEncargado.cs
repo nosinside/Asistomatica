@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Asistomatica
 {
-    public partial class frmEncargado : Form
+    public partial class frmDocente2 : Form
     {
-        public frmEncargado()
+        public frmDocente2()
         {
             InitializeComponent();
         }
