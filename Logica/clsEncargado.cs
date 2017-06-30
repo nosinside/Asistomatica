@@ -14,10 +14,10 @@ namespace Logica
         public int rut { get; set; }
         public string usuario { get; set; }
         public string contraseña { get; set; }
-        public char tipoUsuario { get; set; }
+        public string tipoUsuario { get; set; }
 
         // Constructor
-        public clsEncargado(string _nombre, int _rut, string _usuario, string _contraseña, char _tipoUsuario)
+        public clsEncargado(string _nombre, int _rut, string _usuario, string _contraseña, string _tipoUsuario)
         {
             nombre = _nombre;
             rut = _rut;
@@ -29,18 +29,18 @@ namespace Logica
         {
             clsEncargado objUsuario = null;
             BaseDatos bd = new BaseDatos();
-            string SQL = "select * from tbo_docentes where usuario=@usuario and contraseña=@contraseña";
+            string SQL = "select * from tbo_encargados where usuario=@usuario and contraseña=@contraseña";
             try
             {
                 bd.conectar();
                 bd.comenzarTransaccion();
                 bd.crearComando(SQL);
                 bd.asignarParametroCadena("@usuario", usuario);
-                bd.asignarParametroCadena("@contaseña", contraseña);
+                bd.asignarParametroCadena("@contraseña", contraseña);
                 DbDataReader datosUsuario = bd.ejecutarConsulta();
                 if (datosUsuario.Read())
                 {
-                    objUsuario = new clsEncargado(datosUsuario.GetValue(0).ToString(), int.Parse(datosUsuario.GetValue(1).ToString()), datosUsuario.GetValue(2).ToString(), datosUsuario.GetValue(3).ToString(), datosUsuario.GetChar(4));
+                    objUsuario = new clsEncargado(datosUsuario.GetValue(0).ToString(), int.Parse(datosUsuario.GetValue(1).ToString()), datosUsuario.GetValue(2).ToString(), datosUsuario.GetValue(3).ToString(), datosUsuario.GetValue(4).ToString());
                 }
             }
             catch (Exception)

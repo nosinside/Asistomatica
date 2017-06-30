@@ -8,21 +8,23 @@ using System.Data.Common;
 
 namespace Logica
 {
-    class clsProfesor
+    public class clsProfesor
     {
         public string nombre { get; set; }
         public int rut { get; set; }
         public string usuario { get; set; }
         public string contraseña { get; set; }
+        public string tipoUsuario { get; set; }
 
         // Constructor
 
-        public clsProfesor(string _nombre, int _rut, string _usuario, string _contraseña)
+        public clsProfesor(string _nombre, int _rut, string _usuario, string _contraseña, string _tipoUsuario)
         {
             nombre = _nombre;
             rut = _rut;
             usuario = _usuario;
             contraseña = _contraseña;
+            tipoUsuario = _tipoUsuario;
         }
 
         public static clsProfesor inicioSesion(string usuario, string contraseña)
@@ -36,11 +38,11 @@ namespace Logica
                 bd.comenzarTransaccion();
                 bd.crearComando(SQL);
                 bd.asignarParametroCadena("@usuario", usuario);
-                bd.asignarParametroCadena("@contaseña", contraseña);
+                bd.asignarParametroCadena("@contraseña", contraseña);
                 DbDataReader datosUsuario = bd.ejecutarConsulta();
                 if (datosUsuario.Read())
                 {
-                    objUsuario = new clsProfesor(datosUsuario.GetValue(0).ToString(), int.Parse(datosUsuario.GetValue(1).ToString()), datosUsuario.GetValue(2).ToString(), datosUsuario.GetValue(3).ToString());
+                    objUsuario = new clsProfesor(datosUsuario.GetValue(0).ToString(), int.Parse(datosUsuario.GetValue(1).ToString()), datosUsuario.GetValue(2).ToString(), datosUsuario.GetValue(3).ToString(), datosUsuario.GetValue(4).ToString());
                 }
             }
             catch (Exception)

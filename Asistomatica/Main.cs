@@ -47,40 +47,46 @@ namespace Asistomatica
             }
             else
             {
+                //pregunta por el encargado primero
                 clsEncargado objUsuario = Logica.clsEncargado.inicioSesion(txtNombreUsuario.Text, txtContraseña.Text);
-                if(objUsuario != null)
+                if (objUsuario != null)
                 {
                     if (objUsuario.contraseña == txtContraseña.Text)
                     {
-                        if (objUsuario.tipoUsuario == 'E')
+                        if (objUsuario.tipoUsuario == "E")
                         {
                             frmEncargado app = new frmEncargado();
                             this.Hide();
                             app.ShowDialog();
                             this.Close();
                         }
-                        else
+                    }
+                }
+                else
+                {
+                    //pregunta por los porfesores
+                    clsProfesor objUsuario2 = Logica.clsProfesor.inicioSesion(txtNombreUsuario.Text, txtContraseña.Text);
+                    if (objUsuario != null)
+                    {
+                        if (objUsuario.contraseña == txtContraseña.Text)
                         {
-                            frmDocente app = new frmDocente();
-                            this.Hide();
-                            app.ShowDialog();
-                            this.Close();
+                            if (objUsuario.tipoUsuario == "D")
+                            {
+                                frmEncargado app = new frmEncargado();
+                                this.Hide();
+                                app.ShowDialog();
+                                this.Close();
+                            }
                         }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Nombre de usuario o clave incorrecta", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        colores();
                     }
                 }
             }
-        }
-
-        private void txtUsuario_Click(object sender, EventArgs e)
-        {
-            txtNombreUsuario.BackColor = Color.White;
 
         }
-
-        private void txtContraseña_Click(object sender, EventArgs e)
-        {
-            txtContraseña.BackColor = Color.White;
-        }
-
     }
 }
