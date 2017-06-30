@@ -3,3 +3,4 @@ c:\users\johan barahona\documents\visual studio 2017\Projects\Asistomatica\Contr
 c:\users\johan barahona\documents\visual studio 2017\Projects\Asistomatica\Controlador\obj\Debug\Controlador.csprojResolveAssemblyReference.cache
 c:\users\johan barahona\documents\visual studio 2017\Projects\Asistomatica\Controlador\obj\Debug\Controlador.dll
 c:\users\johan barahona\documents\visual studio 2017\Projects\Asistomatica\Controlador\obj\Debug\Controlador.pdb
+C:\Users\Johan Barahona\documents\visual studio 2017\Projects\Asistomatica\Controlador\bin\Debug\Controlador.dll.config

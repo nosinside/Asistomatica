@@ -27,7 +27,7 @@ namespace Controlador
             try
             {
                 string proveedor = ConfigurationManager.AppSettings.Get("PROVEEDOR_ADONET");
-                this._cadenaConexion = ConfigurationManager.AppSettings.Get("CADENA_Conexion");
+                this._cadenaConexion = ConfigurationManager.AppSettings.Get("CADENA_CONEXION");
                 _factory = DbProviderFactories.GetFactory(proveedor);
             }
             catch (ConfigurationErrorsException ex)

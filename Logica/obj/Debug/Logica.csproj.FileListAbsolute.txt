@@ -5,3 +5,4 @@ c:\users\johan barahona\documents\visual studio 2017\Projects\Asistomatica\Logic
 c:\users\johan barahona\documents\visual studio 2017\Projects\Asistomatica\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
 c:\users\johan barahona\documents\visual studio 2017\Projects\Asistomatica\Logica\obj\Debug\Logica.dll
 c:\users\johan barahona\documents\visual studio 2017\Projects\Asistomatica\Logica\obj\Debug\Logica.pdb
+C:\Users\Johan Barahona\documents\visual studio 2017\Projects\Asistomatica\Logica\bin\Debug\Controlador.dll.config

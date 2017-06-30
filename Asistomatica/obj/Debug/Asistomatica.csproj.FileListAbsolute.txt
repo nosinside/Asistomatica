@@ -9,3 +9,8 @@ c:\users\johan barahona\documents\visual studio 2017\Projects\Asistomatica\Asist
 c:\users\johan barahona\documents\visual studio 2017\Projects\Asistomatica\Asistomatica\obj\Debug\Asistomatica.csproj.GenerateResource.Cache
 c:\users\johan barahona\documents\visual studio 2017\Projects\Asistomatica\Asistomatica\obj\Debug\Asistomatica.exe
 c:\users\johan barahona\documents\visual studio 2017\Projects\Asistomatica\Asistomatica\obj\Debug\Asistomatica.pdb
+C:\Users\Johan Barahona\documents\visual studio 2017\Projects\Asistomatica\Asistomatica\obj\Debug\Asistomatica.frmDocente.resources
+C:\Users\Johan Barahona\documents\visual studio 2017\Projects\Asistomatica\Asistomatica\obj\Debug\Asistomatica.frmEncargado.resources
+C:\Users\Johan Barahona\documents\visual studio 2017\Projects\Asistomatica\Asistomatica\bin\Debug\Controlador.dll
+C:\Users\Johan Barahona\documents\visual studio 2017\Projects\Asistomatica\Asistomatica\bin\Debug\Controlador.pdb
+C:\Users\Johan Barahona\documents\visual studio 2017\Projects\Asistomatica\Asistomatica\bin\Debug\Controlador.dll.config

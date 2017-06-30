@@ -1,6 +1,6 @@
 ﻿namespace Asistomatica
 {
-    partial class frmDocente2
+    partial class frmEncargado
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDocente2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmEncargado));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tcMainEncargado = new System.Windows.Forms.TabControl();
             this.tpModificaLibro = new System.Windows.Forms.TabPage();
